@@ -1,0 +1,58 @@
+.opinions-wrapper h2 {
+    font-size: 3em;
+    padding-top:40px;
+}
+.opinions-wrapper {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    color: #eeeeee;
+    background-color:rgba(52, 52, 52, 0.65);
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    font-size: 1.4em;
+    
+}
+.opinions-wrapper ul {
+    list-style-type: none;
+    width: 60vw;
+    margin: auto;
+    font-size: 160%;
+}
+/*.opinions-wrapper #left-arrow{
+    font-size:50px;
+    position: absolute;
+    left: 5%;
+    top: 75px;
+    transition: color 1s ease; 
+}
+
+.opinions-wrapper #right-arrow{
+    font-size:50px;
+    position: absolute;
+    left: 95%;
+    top: 75px;
+    transition: color 1s ease;
+}
+.opinions-wrapper #left-arrow:hover{
+    color: black;
+}
+
+.opinions-wrapper #right-arrow:hover{
+    color: black;
+}*/
+
+.opinions-wrapper li {
+    display: none;
+    text-align: center;
+}
+.opinion{
+    padding: 35px 0px 20px 0px;
+}
+
+.place {
+    color: #e4df61;
+}
+.opinions-wrapper .visible {
+    display: block;
+}

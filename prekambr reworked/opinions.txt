@@ -1,0 +1,17 @@
+﻿[
+  {
+    "author": "Artur",
+    "place" : "Pielgrzymka",
+    "opinion": "Korzystałem z usług Pana Jarosława Karpińskiego. Mogę polecić go jako sprawnego fachowca zajmującego się pracami kamieniarskimi. Wykonał mi solidnie i czasowo powierzone projekty. Pierwszym razem nagrobek dla rodziny. Drugim razem schody z granitu zewnętrzne. Od wykonania prac minęło kilka lat. Sporządzone elementy przez firmę nie wykazują wad."
+  },
+  {
+    "author": "Wiesława",
+    "place" : "Zgorzelec",
+    "opinion": "Bardzo dziękuję za solidne wykonanie usługi. Zamówiłam u Pana Karpińskiego nagrobek. Pomimo dość sporej odległości ze Zgorzelca do Złotoryi usługa została bardzo solidnie i terminowo wykonana. Szczerze mogę polecić przyszłym zleceniodawcom wykonywanie nagrobków!"
+  },
+  {
+    "author": "Ryszard",
+    "place" : "Jerzmanice Zdrój",
+    "opinion": "Wrześień 2016 - wykonano pomnik (grobowiec 4osoby) przez firmę Prekambr.Usługa wykonana w terminie, zgodnie z umową, w atrakcyjnej cenie. Polecam zainteresowanym!"
+  }
+]

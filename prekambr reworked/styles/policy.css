@@ -1,0 +1,14 @@
+main {
+    padding-top: 70px;
+    font-size: 2em;
+    width: 60%;
+    margin: auto;
+}
+li {
+    padding: 10px;
+}
+main h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 35px 5px 20px 5px;
+}

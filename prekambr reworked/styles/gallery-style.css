@@ -1,0 +1,27 @@
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.one-third {
+    width: 29%;
+    float: left;
+    margin: 2%;
+    min-height: 310px;
+}
+img:hover {
+    opacity: .8;
+}
+@media screen and (max-width: 958px) {
+    .one-third {
+        width: 48%;
+        margin: 1%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .one-third {
+        width: 98%;
+        margin: 1%;
+    }
+}

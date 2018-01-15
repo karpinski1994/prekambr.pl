@@ -1,0 +1,655 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .625em; /*10px*/
+    box-sizing: border-box;
+}
+
+.text-box {
+    font-size: 2em;
+    width: 70%;
+    margin: 10px auto 40px;
+    line-height: 25px;
+}
+.text-box h1 {
+    font-size: 2em;
+}
+.container {
+    width: 100%;
+}
+header {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 400;
+    height: 58.222px;
+    width: 100%;
+    margin-bottom: 0px; /*do poprawy */
+    background-color: rgba(10, 10, 10, 0.9);
+    position: fixed;
+    z-index: 1000;
+}
+.logo {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4px;
+    width: 230px;
+    
+    margin-left:13.1%;
+
+    
+    padding-top: 5px;
+    
+
+}
+.logo a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    margin-left: 25%;
+
+}
+
+nav a {
+    
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.7);
+    
+    height: 26.222px;
+    padding: 24px 15.6px;
+    
+    letter-spacing: 3px;
+    -webkit-transition: color ease 0.2s;
+    -o-transition: color ease 0.2s;
+    transition: color ease 0.2s;
+}
+nav a:hover {
+    color: #ffffff;
+}
+main {
+    padding-top:58px;
+    text-align: center;
+}
+.main-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 690px;
+    background-image:-webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(rgba(52, 52, 52, 0.6)), 
+      to(rgba(52, 52, 52, 0.6))
+    ),
+        url("../img/nagrobek-kamien-impala-prekambr.jpg");
+    background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+        url("../img/nagrobek-kamien-impala-prekambr.jpg");
+    background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+        url("../img/nagrobek-kamien-impala-prekambr.jpg");
+    background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+        url("../img/nagrobek-kamien-impala-prekambr.jpg");
+    background-attachment: fixed;
+    background-position: 30% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.main-banner h1,.main-banner p {
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+.main-banner p {
+    color: #e4df61;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    margin-bottom: 80px;
+}
+
+
+/* DALEJ PRZYCISK*/
+.next {
+    width: 86px;
+    height: 86px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+ border-radius: 50%;
+}
+
+.next > div {
+	width: 86px;
+	height: 86px;
+	overflow: hidden;
+}
+
+.next div a {
+	font-size: 2.6em;
+	font-family: 'Pacifico';
+    text-decoration: none;
+	color: #303030;
+	display: block;
+	position: relative;
+	width: 86px;
+	height: 35px;
+	background: url(../img/arrow-down.png) 31px 34px no-repeat;
+	top: -57px;
+	padding-top: 86px;
+	text-align: center;
+	-webkit-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+}
+
+.next:hover div a {
+	top: 0px;
+}
+.offer-main {
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 3.6em;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.offer-images {
+    width: 100%;
+}
+.offer-image {
+    display: inline-block;
+    height: 240px;
+	width: 360px;
+	text-align: center;
+	margin: 15px;
+    position:relative;
+    cursor: pointer;
+    -webkit-transition: background;
+    -o-transition: background;
+    transition: background
+
+}
+.offer-image::after {
+    display: block;
+    position: relative;
+    background-image:-webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(rgba(52, 52, 52, 0.4)), 
+      to(rgba(52, 52, 52, 0.4))
+    );
+    background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.4), 
+      rgba(52, 52, 52, 0.4)
+    );
+    background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.4), 
+      rgba(52, 52, 52, 0.4)
+    );
+    background-image:linear-gradient(
+      rgba(52, 52, 52, 0.4), 
+      rgba(52, 52, 52, 0.4)
+    );
+    margin-top: -242px;
+    margin-left: 0px;
+    height: 240px;
+    width: 360px;
+    content: '';
+    
+}
+.offer-image:hover::after {
+    background:none;
+}
+.offer-image img {
+    width: 360px;
+    height: 240px;
+}
+.offer-image h2{
+    color: #ffffff;
+    font-size: 3.23em;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+}
+.offer-image h4{
+    font-size:2.6em;
+    padding: 0px 5px 10px 5px;
+}
+.offer-image p {
+    font-size: 2em;
+    padding:10px;
+    line-height: 25px;
+}
+
+.highlighted {
+    color: #e4df61;
+}
+.offer-features {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.feature {
+    display: inline-block;
+    width: 27%;
+    height: 150px;
+    margin: 10px auto 10px;
+}
+.feature i {
+    height: 40px;
+}
+
+.feature h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+.feature p {
+    height: 100px;
+    font-size: 1.4em;
+}
+.description {
+    width: 100%;
+    text-align: center;
+    /*nowy */
+    /*nowy */
+    
+}
+.description-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: 30% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  min-height: 350px;
+}
+.angel {
+      background-image:-webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(rgba(52, 52, 52, 0.6)), 
+      to(rgba(52, 52, 52, 0.6))
+    ),
+    url("../img/nagrobki-prekambr.jpg");
+  background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr.jpg");
+  background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr.jpg");
+  background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr.jpg");
+}
+.cross {
+  background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/krzyz-kamienny.jpg");
+  background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/krzyz-kamienny.jpg");
+  background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/krzyz-kamienny.jpg");
+}
+.small-angel {
+      background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr-aniolek.jpg");
+  background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr-aniolek.jpg");
+  background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/nagrobki-prekambr-aniolek.jpg");
+    
+}
+.mason {
+    background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamieniarstwo-prekambr-opowiesc-zlotoryjska.jpg");
+  background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamieniarstwo-prekambr-opowiesc-zlotoryjska.jpg");
+  background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamieniarstwo-prekambr-opowiesc-zlotoryjska.jpg");
+    
+}
+.description-banner p:first-of-type{
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 5em;
+}
+.description-banner p:last-of-type{
+    line-height: 25px;
+    font-size: 2em;
+    color: #ffffff;
+    margin: 10px 0 50px;
+}
+
+heading {
+    text-align: center;
+}
+.heading p:first-of-type {
+    font-size: 36px;
+    margin-bottom:30px;
+}
+.heading p {
+    font-size: 20px;
+}
+.button-gallery {
+    margin-top: 80px;
+    width: 100%;
+    height:180px;
+    background-color: #e4df61;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+
+}
+.button-gallery > a {
+    width:150px;
+    height:50px;
+    color: #ffffff;
+    background-color: #e4df61;
+    border: 2px solid #ffffff;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button-gallery > a:hover {
+    background-color: #ffffff;
+    color: #e4df61;
+    cursor: pointer;
+}
+/*BUTTON GALLERY END*/
+/*button realizations*/
+.button-realizations {
+    margin-top: 0px;
+    width: 100%;
+    height:180px;
+    background-color: #e4df61;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+
+}
+
+/*button end*/
+.facts{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image:-webkit-gradient(
+      linear, 
+      left top, left bottom, 
+      from(rgba(52, 52, 52, 0.6)), 
+      to(rgba(52, 52, 52, 0.6))
+    ),
+    url("../img/kamienna-kula-prekambr-kamieniarstwo.jpg");
+    background-image:-webkit-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamienna-kula-prekambr-kamieniarstwo.jpg");
+    background-image:-o-linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamienna-kula-prekambr-kamieniarstwo.jpg");
+    background-image:linear-gradient(
+      rgba(52, 52, 52, 0.6), 
+      rgba(52, 52, 52, 0.6)
+    ),
+    url("../img/kamienna-kula-prekambr-kamieniarstwo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+
+}
+.margined {
+    margin: 50px;
+}
+
+.facts p {
+    font-size: 3em;
+}
+.facts h3 {
+    padding-top: 70px;
+    font-size: 3.6em;
+    margin-bottom: 15px;
+}
+footer {
+    margin-top: 0px;
+    width:100%;
+    background: rgb(17, 17, 17);
+        color: rgba(255, 255, 255, 0.7);
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.footer-tile {
+    width:20%;
+    height: 220px;
+    
+    text-align: left;
+    display: inline-block;
+}
+.footer-tile h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-top:25px;
+    border-bottom-color:rgb(194, 194, 194);
+border-bottom-style:dotted;
+border-bottom-width:1px;
+    padding-bottom: 15px;
+}
+.footer-tile p:first-of-type {
+    padding-top: 15px;
+}
+.footer-tile p {
+    padding-bottom: 10px;
+}
+.footer-tile button {
+    
+    margin-top:20px;
+     width:100px;
+    height:35px;
+    color: #ffffff;
+    background-color: #111111;
+    border: 2px solid #e4df61;
+    color: #e4df61;
+    font-size: 1em;
+}
+.footer-tile button:hover {
+     width:100px;
+    height:35px;
+    color: #000000;
+    background-color: #e4df61;
+    border: 2px solid #e4df61;
+    font-size: 1em;
+    cursor: pointer;
+}
+.footer-tile a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+    display: block;
+    height:28.68px;
+}
+.footer-tile a:first-of-type {
+    margin-top: 15px;
+}
+
+.footer-tile a:hover {
+    color:#666;
+}
+.socials {
+    padding: 30px 0px 30px 0px;
+    width:83%;
+    border-top: 1px solid #333333;
+    text-align: left;
+    background-color: rgb(17, 17, 17);
+    color: #f6f6f6;
+    display: inline-flex;
+}
+.socials p{
+    margin-right: 20px;
+}
+.icon-facebook:hover {
+    color:#666;
+}
+.icon-gplus:hover {
+    color:#666;
+}
+.icon-instagram:hover {
+    color:#666;
+}
+.darker {
+    color: #aaaaaa;
+}
+/* --- STYLE NAV-BUTTONA --- *//* --- STYLE NAV-BUTTONA --- *//* --- STYLE NAV-BUTTONA --- */
+.nav-button {
+            width: 50px;
+            height: 50px;
+            top: 3px;
+        }
+.nav-button span, .nav-button span:before, .nav-button span:after {
+            width: 46px;
+            height: 4px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+.nav-button span {
+            top: 50%;
+            left: 2px;
+        }
+.nav-button span:before {
+            content: '';
+            top: -11px;
+            -webkit-transition: -webkit-transform .3s;
+            transition: -webkit-transform .3s;
+            -o-transition: transform .3s;
+            transition: transform .3s;
+            transition: transform .3s, -webkit-transform .3s;
+        }
+.nav-button span:after {
+            content: '';
+            top: 11px;
+            -webkit-transition: -webkit-transform .3s;
+            transition: -webkit-transform .3s;
+            -o-transition: transform .3s;
+            transition: transform .3s;
+            transition: transform .3s, -webkit-transform .3s;
+        }
+.nav-button.visible span{
+            background-color: rgba(40, 40, 40, 0.0);
+        }
+ .nav-button.visible span:before {
+            content: '';
+            top: 0px;
+            -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                    transform: rotate(45deg);
+            
+        }
+.nav-button.visible span:after {
+            content: '';
+            top: 0px;
+            -webkit-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+        }
+
+.footer-tile:nth-child(3){
+    background: url('../img/mapa-prekambr-kamieniarstwo-adres.jpg') no-repeat;
+    background-size: contain;
+}
+/* --- STYLE NAV-BUTTONA --- *//* --- STYLE NAV-BUTTONA --- *//* --- STYLE NAV-BUTTONA --- */
+
+iframe{
+    margin-bottom: -2px;
+}

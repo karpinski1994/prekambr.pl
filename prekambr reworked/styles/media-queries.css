@@ -1,0 +1,396 @@
+@media  all and (min-width: 1440px) {
+    .nav-button {
+        display: none;
+    }
+    
+}
+@media  all and (min-width: 1024px) and (max-width: 1439px) {
+    .nav-button {
+        display: none;
+    }
+    .logo {
+        margin-left: 5%;
+    }
+    nav {
+         margin-right: 5%;
+        margin-left: auto;
+    }
+    nav a {
+
+        padding: 24px 5.6px;
+
+    }
+    .offer-image {
+        display: inline-block;
+        height: 170px;
+	    width: 256px;
+	    text-align: center;
+	    margin: 15px;
+        position:relative;
+        cursor: pointer;
+        transition: background
+
+    }
+    .offer-image::after {
+        display: block;
+        position: relative;
+        background-image:-webkit-linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));
+    background-image:-o-linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));
+    background-image:linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));;
+        margin-top: -171px;
+        margin-left: 0px;
+        height: 170px;
+        width: 256px;
+        content: '';
+    
+      }
+    .offer-image:hover::after {
+        background:none;
+    }
+    .offer-image img {
+        width: 256px;
+        height: 170px;
+    }
+    .offer-image h2{
+        color: #ffffff;
+        font-size: 3.23em;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+    }
+        .feature {
+        display: inline-block;
+        width: 27%;
+        margin: 20px;
+
+    }
+        .footer-tile {
+        width:256px;
+    }
+    .description-banner {
+        min-height: 350px;
+    }
+}
+
+@media  all and (min-width: 768px) and (max-width: 1023px) {
+    .nav-button {
+        display: none;
+    }
+    nav a {
+        font-size: 1em;
+        letter-spacing: 1px;
+        padding: 24px 5.6px;
+    }    
+    .logo {
+        margin-left: 5%;
+    }
+    nav {
+        margin-right: 5%;
+        margin-left: auto;
+    }
+         .offer-image {
+        display: inline-block;
+        height: 170px;
+	    width: 256px;
+	    text-align: center;
+	    margin: 15px;
+        position:relative;
+        cursor: pointer;
+        transition: background
+
+    }
+    .offer-image::after {
+        display: block;
+        position: relative;
+        background-image:-webkit-linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));
+    background-image:-o-linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));
+    background-image:linear-gradient(rgba(52, 52, 52, 0.4), rgba(52, 52, 52, 0.4));;
+        margin-top: -171px;
+        margin-left: 0px;
+        height: 170px;
+        width: 256px;
+        content: '';
+    
+      }
+    .offer-image:hover::after {
+        background:none;
+    }
+    .offer-image img {
+        width: 256px;
+        height: 170px;
+    }
+    .offer-image h2{
+        color: #ffffff;
+        font-size: 3.23em;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+    }
+    .description-banner {
+        min-height: 320px;
+    }
+     .description-banner p:first-of-type{
+    font-size: 4em;
+    }
+    .feature {
+        display: inline-block;
+        width: 27%;
+        margin: auto;
+
+    }
+    .footer-tile {
+        width:24%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*TEXT SLIDER */
+    .opinions-wrapper{
+    font-size: 1.2em;
+    }
+}
+@media  all and (min-width: 425px) and (max-width: 767px) {
+    .text-box {
+        width: 90%;
+    }
+    .main-banner {
+        font-size: 1em;
+    }
+    .nav-button {
+       position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 12px;
+           left:85%;
+        }
+    .description-banner {
+        min-height: 300px;
+    }
+     .description-banner p:first-of-type{
+    font-size: 3.5em;
+        padding: 2vh 0;
+    }
+    .nav-list {
+        background-color: rgba(5, 5, 5, 0.9);
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        top:57px;
+        left: 0;
+    }
+    
+    .nav-list a {
+        border-top: 1px solid #222222;
+        padding: 10px;
+    }
+    .displayed {
+        display: flex;
+    }
+     div.feature {
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+    .footer-tile {
+        width: 49%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    /*TEXT SLIDER */
+    .opinions-wrapper{
+    font-size: 1.2em;
+    }
+    .opinions-wrapper ul {
+    list-style-type: none;
+    width: 90vw;
+}
+     .opinions-wrapper .opinion{
+    padding: 25px 0px 10px 0px;
+}
+}
+@media  all and (min-width: 375px)and (max-width: 424px) {
+    .text-box {
+        width: 95%;
+    }
+    .main-banner {
+        font-size: 1em;
+    }
+    .nav-button {
+       position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 12px;
+           left:85%;
+        }
+    .nav-list {
+        background-color: rgba(5, 5, 5, 0.9);
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        top:57px;
+        left: 0;
+    }
+    .offer-image {
+        margin: 0;
+        padding: 0;
+    }
+      .description-banner p:first-of-type{
+    font-size: 3em;
+        padding: 0 0;
+    }
+    .offer-image img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-list a {
+        border-top: 1px solid #222222;
+        padding: 10px;
+    }
+    .displayed {
+        display: flex;
+    }
+   div.feature {
+        margin: 0px 0px 25px 0px;
+        width: 100%;
+    }
+
+    .footer-tile {
+        width: 49%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+   /*TEXT SLIDER */
+    .opinions-wrapper{
+    font-size: 1.15em;
+    }
+    .opinions-wrapper ul {
+    list-style-type: none;
+    width: 90vw;
+}
+     .opinions-wrapper .opinion{
+    padding: 15px 0px 10px 0px;
+}
+}
+@media  all and (max-width: 374px) {
+    .text-box {
+        width: 98%;
+    }
+    .main-banner h1, .main-banner p{
+        font-size: 3em;
+    }
+   
+
+    .nav-list {
+        background-color: rgba(5, 5, 5, 0.9);
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        width: 100%;
+        text-align: center;
+        top:57px;
+        left: 0;
+    }
+    .nav-list a {
+        border-top: 1px solid #222222;
+        padding: 10px;
+    }
+
+   .nav-button {
+       position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 12px;
+           left:85%;
+        }
+.nav-button span, .nav-button span:before, .nav-button span:after {
+            width: 26px;
+            height: 3px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    .nav-button span:before {
+            content: '';
+            top: -7.2px;
+            transition: transform .3s;
+        }
+.nav-button span:after {
+            content: '';
+            top: 7px;
+            transition: transform .3s;
+        }
+    .facts p, .facts h3 {
+        font-size: 2.1em;
+    }
+    .description-banner p:first-of-type{
+    font-size: 2.5em;
+        padding: 0 0;
+    }
+    .displayed {
+        display: flex;
+    }
+    div.feature {
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+.offer-image {
+    height: auto;
+    width: 100%;
+	margin: 0;
+
+}
+    .offer-image h2 {
+        margin-top: 40px;
+    }
+.offer-image::after {
+    display: block;
+    position: relative;
+    background-image:linear-gradient(
+      rgba(52, 52, 52, 0.4), 
+      rgba(52, 52, 52, 0.4)
+    );
+    margin-top: -50%p;
+    margin-left: 0px;
+    height: auto;
+    width: 100%;
+    content: '';
+    
+}
+.offer-image:hover::after {
+    background:none;
+}
+.offer-image img {
+    height: auto;
+    width: 100%;
+}
+
+    .footer-tile {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .socials {
+        font-size: 1.2em;
+    }
+       /*TEXT SLIDER */
+    .opinions-wrapper{
+    font-size: 1.1em;
+    }
+    .opinions-wrapper ul {
+    list-style-type: none;
+    width: 90vw;
+}
+     .opinions-wrapper .opinion{
+    padding: 15px 0px 10px 0px;
+}
+}
